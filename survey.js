@@ -13,8 +13,8 @@ rl.question("What's your name? Nicknames are also acceptable! ", (answer1) => {
           rl.question("Which sport is your absolute favourite? ", (answer6) => {
             rl.question("What is your superpower? In a few words, tell us what you are amazing at! ", (answer7) => {
 
-              // console.log(`Thank you for your valuable feedback: ${answer1 + answer2}`);
               process.stdout.write(`${answer1} loves to listen to ${answer3} while ${answer2}, devouring ${answer5} for ${answer4}, prefers ${answer6} over any other sport, and is amazing at ${answer7}. \n`);
+              
               rl.close();
             });
           });
